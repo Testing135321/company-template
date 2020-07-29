@@ -86,7 +86,7 @@
               projectURL="https://google.com"
             />
           </template>yes
-
+        </PortfolioContent>
         <ContactContent
           address="Level 11, Menara KEN TTDI, No.37 Jalan Burhanuddin Helmi, Taman Tun Dr. Ismail"
           email="support@thelead.io"
@@ -97,6 +97,13 @@
     </div>
   </div>
 </template>
+
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Another world"
+    };
+  }
+};
 </script>
