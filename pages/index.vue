@@ -11,24 +11,22 @@
           :second_header ( Header 2 Text)
           :descriptions ( Descriptions )
         -->
-        <HeaderContent 
-          imgURL="/img/slider1.jpeg"
-          header_txt="Company Template by LEAD"
-          second_header="Second Header"
-          descriptions="Header Descriptions"
+        <HeaderContent
+          imgURL="https://static.toiimg.com/thumb/msid-58515713,width-1070,height-580,resizemode-75,imgsize-58515713,pt-32,y_pad-40/58515713.jpg"
+          header_txt="Another world"
+          second_header="A student project"
+          descriptions="Let's travel"
         ></HeaderContent>
         <!-- 
           About Content 
 
           PARAMETERS
           :imgURL ( URL for about us )
-         -->
+        -->
         <AboutContent
-          imgURL="/img/about.jpg"
+          imgURL="https://aviationservicesco.com/wp-content/uploads/2019/12/aboutupdated.jpg"
         >
-          <template v-slot:about>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorum rerum hic exercitationem odit, soluta eaque eos corporis quam alias ipsum repudiandae blanditiis tempore eligendi numquam temporibus! Molestias, quos beatae?
-          </template>
+          <template v-slot:about>Meow meow</template>
         </AboutContent>
 
         <ServiceContent>
@@ -40,48 +38,36 @@
               PARAMETERS
 
               :imgURL (image url)
-             -->
-            <Service
-              imgURL="/img/icon1.png"
-              title="Service Title"
-            >
-              <template v-slot:content>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?
-              </template>
+            -->
+            <Service imgURL="/img/icon1.png" title="Service 1">
+              <template
+                v-slot:content
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?</template>
             </Service>
 
-            <Service
-              imgURL="/img/icon2.png"
-              title="Service Title"
-            >
-              <template v-slot:content>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?
-              </template>
+            <Service imgURL="/img/icon2.png" title="Service 2">
+              <template
+                v-slot:content
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?</template>
             </Service>
 
-            <Service
-              imgURL="/img/icon3.png"
-              title="Service Title"
-            >
-              <template v-slot:content>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?
-              </template>
+            <Service imgURL="/img/icon3.png" title="Service 3">
+              <template
+                v-slot:content
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?</template>
             </Service>
 
-            <Service
-              imgURL="/img/icon4.png"
-              title="Service Title"
-            >
-              <template v-slot:content>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?
-              </template>
+            <Service imgURL="/img/icon4.png" title="Service 4">
+              <template
+                v-slot:content
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus excepturi quisquam temporibus non nisi doloribus cumque cum molestiae odio velit ratione perspiciatis assumenda numquam quam porro, sed quasi quia possimus?</template>
             </Service>
           </template>
         </ServiceContent>
 
         <!-- 
           Portfolio
-         -->
+        -->
         <PortfolioContent>
           <template v-slot:portfolio>
             <!-- 
@@ -92,16 +78,15 @@
               :name ( Name of the Project )
               :project ( Name of Project Type)
               :projectURL ( Link Address to project)
-             -->
+            -->
             <Project
-                imgURL='/img/about.jpg'
-                name='Project Name'
-                project='Project Type'
-                projectURL='https://google.com'
-              />
+              imgURL="https://img.caixin.com/2019-12-12/1576147635453631.jpg"
+              name="Project ABC"
+              project="Project Type"
+              projectURL="https://google.com"
+            />
+          </template>yes
 
-          </template>
-        </PortfolioContent>
         <ContactContent
           address="Level 11, Menara KEN TTDI, No.37 Jalan Burhanuddin Helmi, Taman Tun Dr. Ismail"
           email="support@thelead.io"
@@ -113,6 +98,5 @@
   </div>
 </template>
 <script>
-export default {
-}
+export default {};
 </script>
